@@ -2,9 +2,10 @@ import React from "react";
 
 const page = () => {
   return (
-    <div>
+    <>
       <h1 className="h1-bold">Tailwind Css is Fun</h1>
-    </div>
+      <h1 className="h1-bold font-space-grotesk">Tailwind Css is Fun</h1>
+    </>
   );
 };
 
