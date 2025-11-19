@@ -35,12 +35,12 @@ const SocialAuthForm = () => {
           alt="Github Logo"
           width={20}
           height={20}
-          className="invert-colors ojbect-contain mr-2.5"
+          className="invert-colors object-contain mr-2.5"
         />
         <span>Log in with Github</span>
       </Button>
       <Button className={buttonClass} onClick={() => handleSignIn("google")}>
-        <Image src="/icons/google.svg" alt="Google Logo" width={20} height={20} className="ojbect-contain mr-2.5" />
+        <Image src="/icons/google.svg" alt="Google Logo" width={20} height={20} className="object-contain mr-2.5" />
         <span>Log in with Google</span>
       </Button>
     </div>
