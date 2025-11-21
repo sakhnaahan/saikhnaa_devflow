@@ -6,11 +6,3 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
   providers: [GitHub, Google],
 });
 
-// GitHub({
-//       clientId: process.env.AUTH_GITHUB_ID,
-//       clientSecret: process.env.AUTH_GITHUB_SECRET,
-//     }),
-//     Google({
-//       clientId: process.env.AUTH_GITHUB_ID,
-//       clientSecret: process.env.AUTH_GITHUB_SECRET,
-//     }),
