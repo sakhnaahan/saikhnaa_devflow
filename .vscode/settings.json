@@ -33,5 +33,5 @@
     "**/.node_modules": true,
     "next-env.d.ts": true
   },
-  "cSpell.words": ["Authform", "comapct", "Devicon", "musn't", "shadcn"]
+  "cSpell.words": ["Authform", "bunjs", "comapct", "Devicon", "musn't", "reactjs", "shadcn"]
 }
